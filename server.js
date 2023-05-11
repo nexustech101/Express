@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 
 // Set up MongoDB connection
 const URI =
-  "mongodb+srv://charlesldefreeseiii:zrMRtd4K6nkZQGes@cluster0.fijlwsy.mongodb.net/nodeJSServer?retryWrites=true&w=majority";
+  "mongodb+srv://<username>:<password>@<clustername>.fijlwsy.mongodb.net/<databasename>?retryWrites=true&w=majority";
 
 mongoose
   .connect(URI, {
